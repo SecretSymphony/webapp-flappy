@@ -1,0 +1,54 @@
+h1 {
+    color: darkblue;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+P { text-align: center }
+Head { text-align: center }
+
+div.container4 {
+    height: 5em;
+    position: relative }
+
+div.container4{
+    margin:70%;
+    background: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+div.container5 p {
+    margin:70%;
+    background: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#greeting {
+    display: none;
+    position: absolute;
+    left: -400%;
+    top: 20%;
+    background: #fff;
+    width: 10%;
+    height: 10%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#gameLink {
+    text-align: center;
+    border: none;
+    left: 200%;
+    right: 200%;
+    top: 20%;
+}
